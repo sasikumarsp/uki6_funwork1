@@ -259,6 +259,16 @@ $(document).ready(function() {
             e.preventDefault();
             sound.start();
         });
+        $('#stop25').click(function(e) {
+            e.preventDefault();
+            sound.stop();
+        });
+    });
+    SC.stream('/tracks/763113268', function(sound) {
+        $('#start26').click(function(e) {
+            e.preventDefault();
+            sound.start();
+        });
         $('#stop26').click(function(e) {
             e.preventDefault();
             sound.stop();

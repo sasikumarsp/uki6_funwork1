@@ -19,7 +19,7 @@ h6 {
 }
 
 .feature {
-    background: yellowgreen linear-gradient(to bottom, greenyellow, olivedrab);
+    background: rgb(0, 0, 0) linear-gradient(to bottom, rgb(13, 13, 14), rgb(252, 251, 255));
     color: black;
 }
 
@@ -37,7 +37,7 @@ h6 {
 
 .footer-blurb {
     padding: 0px 0;
-    background-color: yellowgreen;
+    background-color: rgb(129, 136, 173);
     color: black;
 }
 
@@ -53,4 +53,28 @@ h6 {
 .feature,
 .small-print {
     text-align: center;
+}
+
+.carousel-caption a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(214, 132, 164);
+    text-shadow: 4px solid rgb(218, 58, 71);
+}
+
+.nav1 img
+{
+    height: 47px;
+    padding: 0em;
+    margin: 0rem;
+}
+
+.nav1
+{
+    padding: 1px;
+    margin: 1px;
 }
